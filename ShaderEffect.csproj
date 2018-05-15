@@ -111,6 +111,8 @@
     <None Include="Assets\Shader\BlackHole.shader" />
     <None Include="Assets\Shader\Crush.shader" />
     <None Include="Assets\Shader\DynamicImage.shader" />
+    <None Include="Assets\Shader\ImageSequence.shader" />
+    <None Include="Assets\Shader\NormalUv.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
