@@ -104,9 +104,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\BlackHoleEffect.cs" />
     <Compile Include="Assets\Script\DynamicImage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shader\BlackHole.shader" />
+    <None Include="Assets\Shader\Crush.shader" />
     <None Include="Assets\Shader\DynamicImage.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

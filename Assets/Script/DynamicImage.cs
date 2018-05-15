@@ -24,7 +24,6 @@ using System.Collections;
         private static int TimeOffsetID = -1;
         private static int TimeScaleID = -1;
         private static int ScaleRatioID = -1;
-        private static int TestID = -1;
 
         void Awake()
         {
@@ -36,7 +35,6 @@ using System.Collections;
                 TimeOffsetID = Shader.PropertyToID("_TimeOffset");
                 TimeScaleID = Shader.PropertyToID("_TimeScale");
                 ScaleRatioID = Shader.PropertyToID("_ScaleRatio");
-                TestID = Shader.PropertyToID("_Test");
             }
 
             UIExpandMat.SetFloat(TimeScaleID, 1 / ScaleDuration);

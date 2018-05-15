@@ -87,7 +87,8 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 -define:UNITY_PRO_LICENSE
-'Assets/NewBehaviourScript.cs'
+'Assets/Script/BlackHoleEffect.cs'
+'Assets/Script/DynamicImage.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'

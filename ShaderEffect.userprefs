@@ -1,8 +1,12 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/DynamicImage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/BlackHoleEffect.cs">
     <Files>
-      <File FileName="Assets/Script/DynamicImage.cs" Line="135" Column="6" />
+      <File FileName="Assets/Shader/Crush.shader" Line="72" Column="31" />
+      <File FileName="Assets/Script/DynamicImage.cs" Line="37" Column="67" />
+      <File FileName="Assets/Shader/DynamicImage.shader" Line="1" Column="18" />
+      <File FileName="Assets/Script/BlackHoleEffect.cs" Line="9" Column="27" />
+      <File FileName="Assets/Shader/BlackHole.shader" Line="78" Column="52" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

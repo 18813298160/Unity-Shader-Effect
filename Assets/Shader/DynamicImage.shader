@@ -1,4 +1,4 @@
-﻿Shader "UI/DynamicImage"
+﻿Shader "Effect/UI/DynamicImage"
 {
     Properties
     {
@@ -16,8 +16,6 @@
         _VertexParmas("VertexParmas", Vector) = (0, 0, 0, 0)
         _TimeOffset("TimeOffset", float) = 0
         _ScaleRatio("ScaleRatio", float) = 1
-            
-            _Test("Test", float)  = 0
 
         [Toggle(UNITY_UI_ALPHACLIP)] _UseUIAlphaClip ("Use Alpha Clip", Float) = 0
     }
@@ -87,7 +85,6 @@
             half _TimeScale;
             float _TimeOffset;
             float _ScaleRatio;
-            float _Test;
 
 //主要代码
 
@@ -98,15 +95,15 @@
                 UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
                 OUT.worldPosition = v.vertex;
 
-//根据时间和配置参数对顶点进行缩放操作
-//_Time，它的y值与C#中对应的是Time.timeSinceLevelLoad。这里为了实现界面一开始的时候第一个字是从0开始放大的，需要从C#传递给Shader一个起始时间，通过_Time.y - _TimeOffset 来确保起始效果。
+				//根据时间和配置参数对顶点进行缩放操作
+				//_Time，它的y值与C#中对应的是Time.timeSinceLevelLoad。这里为了实现界面一开始的时候第一个字是从0开始放大的，需要从C#传递给Shader一个起始时间，通过_Time.y - _TimeOffset 来确保起始效果。
 
-        half t = fmod((_Time.y - _TimeOffset) * _TimeScale, 1);
-        t = 4 * (t - t * t);
+		        half t = fmod((_Time.y - _TimeOffset) * _TimeScale, 1);
+		        t = 4 * (t - t * t);
 
-        OUT.worldPosition.xy -= _VertexParmas.xy;
-        OUT.worldPosition.xy *= (1 + t * _ScaleRatio);
-        OUT.worldPosition.xy += _VertexParmas.xy;
+		        OUT.worldPosition.xy -= _VertexParmas.xy;
+		        OUT.worldPosition.xy *= (1 + t * _ScaleRatio);
+		        OUT.worldPosition.xy += _VertexParmas.xy;
 
                 OUT.vertex = UnityObjectToClipPos(OUT.worldPosition);
 
