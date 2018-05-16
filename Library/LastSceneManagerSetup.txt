@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scence/BlackHole.unity
+- path: Assets/Scence/UVAnimate.unity
   isLoaded: 1
   isActive: 1
