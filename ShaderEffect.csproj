@@ -106,15 +106,18 @@
   <ItemGroup>
     <Compile Include="Assets\BlackHole\BlackHoleEffect.cs" />
     <Compile Include="Assets\Dynamic Image\DynamicImage.cs" />
+    <Compile Include="Assets\Render Image\Bloom\Bloom.cs" />
     <Compile Include="Assets\Render Image\GrayCtrl\GrayCtrl.cs" />
     <Compile Include="Assets\Render Image\RenderImageEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BlackHole\BlackHole.shader" />
+    <None Include="Assets\Card\CardEffect.shader" />
     <None Include="Assets\Crush\Crush.shader" />
     <None Include="Assets\Dynamic Image\DynamicImage.shader" />
     <None Include="Assets\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\NormalUV\NormalUv.shader" />
+    <None Include="Assets\Render Image\Bloom\Bloom.shader" />
     <None Include="Assets\Render Image\GrayCtrl\GrayCtrl.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

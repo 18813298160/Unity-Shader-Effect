@@ -55,7 +55,7 @@ public abstract class RenderImageEffect : MonoBehaviour {
 	/// </summary>
 	/// <param name="source">Source.</param>
 	/// <param name="destination">Destination.</param>
-	void OnRenderImage(RenderTexture source, RenderTexture destination)
+    public virtual void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         if(curShader)
         {
