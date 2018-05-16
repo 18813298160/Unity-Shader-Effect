@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Card/CardEffect.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EdgeCheck/Check.shader">
     <Files>
-      <File FileName="Assets/Render Image/RenderImageEffect.cs" Line="58" Column="87" />
-      <File FileName="Assets/Render Image/Bloom/Bloom.cs" Line="4" Column="13" />
-      <File FileName="Assets/Render Image/Bloom/Bloom.shader" Line="2" Column="1" />
-      <File FileName="Assets/Card/CardEffect.shader" Line="59" Column="4" />
+      <File FileName="Assets/Card/CardEffect.shader" Line="48" Column="13" />
+      <File FileName="Assets/UV/UVWave/UVWave.shader" Line="45" Column="50" />
+      <File FileName="Assets/EdgeCheck/Check.shader" Line="10" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

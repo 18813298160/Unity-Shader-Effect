@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scence/UVAnimate.unity
+- path: Assets/Image Sequence/ImageSequence.unity
   isLoaded: 1
   isActive: 1

@@ -27,7 +27,7 @@ Shader "Effect/imageShine" {
             v2f o;    
             o.pos = UnityObjectToClipPos (v.vertex);    
             o.uv.xy = v.texcoord.xy;  
-            o.uv.zw = v.texcoord.xy + _Time.xx ;  
+            o.uv.zw = v.texcoord.xy + _Time.x;  
             return o;    
         }    
 
