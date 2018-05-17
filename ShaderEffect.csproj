@@ -104,25 +104,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BlackHole\BlackHoleEffect.cs" />
-    <Compile Include="Assets\Dynamic Image\DynamicImage.cs" />
-    <Compile Include="Assets\Render Image\Bloom\Bloom.cs" />
-    <Compile Include="Assets\Render Image\GrayCtrl\GrayCtrl.cs" />
-    <Compile Include="Assets\Render Image\RenderImageEffect.cs" />
+    <Compile Include="Assets\Render Image Effect\BasicFix\BasicFix.cs" />
+    <Compile Include="Assets\Render Image Effect\Bloom\Bloom.cs" />
+    <Compile Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.cs" />
+    <Compile Include="Assets\Render Image Effect\NightVision\NightVision.cs" />
+    <Compile Include="Assets\Render Image Effect\RenderImageEffect.cs" />
+    <Compile Include="Assets\Shadereffect\BlackHole\BlackHoleEffect.cs" />
+    <Compile Include="Assets\Shadereffect\Dynamic Image\DynamicImage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\BlackHole\BlackHole.shader" />
-    <None Include="Assets\Card\CardEffect.shader" />
-    <None Include="Assets\Crush\Crush.shader" />
-    <None Include="Assets\Dynamic Image\DynamicImage.shader" />
-    <None Include="Assets\EdgeCheck\Check.shader" />
-    <None Include="Assets\Image Sequence\ImageSequence.shader" />
-    <None Include="Assets\Render Image\Bloom\Bloom.shader" />
-    <None Include="Assets\Render Image\GrayCtrl\GrayCtrl.shader" />
-    <None Include="Assets\UV\NormalUV\method1\UvWithSurfaceShader.shader" />
-    <None Include="Assets\UV\NormalUV\method2\UVMove.shader" />
-    <None Include="Assets\UV\UVPattern.shader" />
-    <None Include="Assets\UV\UVWave\UVWave.shader" />
+    <None Include="Assets\Render Image Effect\BasicFix\Mutiply.shader" />
+    <None Include="Assets\Render Image Effect\BasicFix\Overlay.shader" />
+    <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
+    <None Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.shader" />
+    <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
+    <None Include="Assets\Shadereffect\BlackHole\BlackHole.shader" />
+    <None Include="Assets\Shadereffect\Card\CardEffect.shader" />
+    <None Include="Assets\Shadereffect\Crush\Crush.shader" />
+    <None Include="Assets\Shadereffect\Dynamic Image\DynamicImage.shader" />
+    <None Include="Assets\Shadereffect\EdgeCheck\Check.shader" />
+    <None Include="Assets\Shadereffect\Image Sequence\ImageSequence.shader" />
+    <None Include="Assets\Shadereffect\Reflect\Reflect.shader" />
+    <None Include="Assets\Shadereffect\TransitionColor\TransitionColor.shader" />
+    <None Include="Assets\Shadereffect\Transparent\TransparentTest.shader" />
+    <None Include="Assets\Shadereffect\UV\NormalUV\method1\UvWithSurfaceShader.shader" />
+    <None Include="Assets\Shadereffect\UV\NormalUV\method2\UVMove.shader" />
+    <None Include="Assets\Shadereffect\UV\UVPattern.shader" />
+    <None Include="Assets\Shadereffect\UV\UVWave\UVWave.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

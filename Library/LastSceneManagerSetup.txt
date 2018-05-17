@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Image Sequence/ImageSequence.unity
+- path: Assets/Reflect/CubeMap.unity
   isLoaded: 1
   isActive: 1

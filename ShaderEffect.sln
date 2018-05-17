@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderEffect", "ShaderEffect.csproj", "{8073E6A9-2103-13A0-6A8E-7C0597662890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderEffect.Editor", "ShaderEffect.Editor.csproj", "{383156D6-C3C5-CA23-259D-5611BF6D4387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8073E6A9-2103-13A0-6A8E-7C0597662890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8073E6A9-2103-13A0-6A8E-7C0597662890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8073E6A9-2103-13A0-6A8E-7C0597662890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383156D6-C3C5-CA23-259D-5611BF6D4387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383156D6-C3C5-CA23-259D-5611BF6D4387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383156D6-C3C5-CA23-259D-5611BF6D4387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383156D6-C3C5-CA23-259D-5611BF6D4387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

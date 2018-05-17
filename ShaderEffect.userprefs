@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EdgeCheck/Check.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shadereffect/TransitionColor/TransitionColor.shader">
     <Files>
-      <File FileName="Assets/Card/CardEffect.shader" Line="48" Column="13" />
-      <File FileName="Assets/UV/UVWave/UVWave.shader" Line="45" Column="50" />
-      <File FileName="Assets/EdgeCheck/Check.shader" Line="10" Column="2" />
+      <File FileName="Assets/Shadereffect/TransitionColor/TransitionColor.shader" Line="61" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
