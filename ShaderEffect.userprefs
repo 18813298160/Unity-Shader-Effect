@@ -1,8 +1,12 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shadereffect/TransitionColor/TransitionColor.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TestMask/SobelCheck2.shader">
     <Files>
-      <File FileName="Assets/Shadereffect/TransitionColor/TransitionColor.shader" Line="61" Column="13" />
+      <File FileName="Assets/TestMask/NewMonoBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/MeshMask/Scripts/Utils/EdgeDetection/SobelEdgeDetection.cs" Line="110" Column="19" />
+      <File FileName="Assets/MeshMask/Scripts/Utils/EdgeDetection/EdgeUtil.cs" Line="1" Column="1" />
+      <File FileName="Assets/TestMask/SobelCheck2.shader" Line="3" Column="23" />
+      <File FileName="Assets/TestMask/SobelCheck.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
