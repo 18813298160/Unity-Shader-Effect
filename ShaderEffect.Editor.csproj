@@ -157,6 +157,8 @@
     <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
     <None Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.shader" />
     <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
+    <None Include="Assets\Render Image Effect\ScreenBroken\NormalMap.shader" />
+    <None Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.shader" />
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
     <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />

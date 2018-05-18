@@ -110,6 +110,7 @@
     <Compile Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.cs" />
     <Compile Include="Assets\Render Image Effect\NightVision\NightVision.cs" />
     <Compile Include="Assets\Render Image Effect\RenderImageEffect.cs" />
+    <Compile Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.cs" />
     <Compile Include="Assets\ShaderEffect\BlackHole\BlackHoleEffect.cs" />
     <Compile Include="Assets\ShaderEffect\Dynamic Image\DynamicImage.cs" />
   </ItemGroup>
@@ -119,6 +120,8 @@
     <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
     <None Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.shader" />
     <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
+    <None Include="Assets\Render Image Effect\ScreenBroken\NormalMap.shader" />
+    <None Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.shader" />
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
     <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />
