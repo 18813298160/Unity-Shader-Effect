@@ -194,3 +194,38 @@ Cmd: preprocess
   insize=2516 outsize=1578 ok=1
 Cmd: preprocess
   insize=1547 outsize=1324 ok=1
+Cmd: preprocess
+  insize=2711 outsize=640 ok=1
+Cmd: preprocess
+  insize=2930 outsize=416 ok=1
+Cmd: preprocess
+  insize=1493 outsize=1490 ok=1
+Cmd: preprocess
+  insize=784 outsize=781 ok=1
+Cmd: preprocess
+  insize=2809 outsize=783 ok=1
+Cmd: preprocess
+  insize=3461 outsize=439 ok=1
+Cmd: preprocess
+  insize=1010 outsize=314 ok=1
+Cmd: preprocess
+  insize=1855 outsize=418 ok=1
+Cmd: preprocess
+  insize=4003 outsize=1501 ok=1
+Cmd: preprocess
+  insize=2318 outsize=601 ok=1
+Cmd: preprocess
+  insize=1404 outsize=1313 ok=1
+Cmd: preprocess
+  insize=2875 outsize=726 ok=1
+Cmd: preprocess
+  insize=1736 outsize=532 ok=1
+Cmd: preprocess
+  insize=1364 outsize=1354 ok=1
+Cmd: preprocess
+  error: 1 plat 20 at (106): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  insize=2606 outsize=3481 ok=1
+Cmd: preprocess
+  insize=2516 outsize=1578 ok=1
+Cmd: preprocess
+  insize=1547 outsize=1324 ok=1
