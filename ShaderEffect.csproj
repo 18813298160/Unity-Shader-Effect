@@ -105,29 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CommonScripts\PolyImage.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\CustomizedMaskData\CustomizedMaskData_BT_jiantou_normal.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\CustomizedMaskData\CustomizedMaskData_jiesu_normal.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\CustomizedMaskData\CustomizedMaskData_liaotian_liaotian_pressed.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\CustomizedMaskData\CustomizedMaskData_target_texture_3.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\CustomizedMaskData\CustomizedMaskData_timg.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\MeshMask.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Scripts\Demo.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Scripts\DemoMesh.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Scripts\LocalStorage.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Circle2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\HalfEdge2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Polygon2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Segment2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Triangle2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Triangulation2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Utils2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Triangulation2D\Scripts\Vertex2D.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\EdgeDetection\ConvexHullUtil.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\EdgeDetection\EdgeUtil.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\EdgeDetection\SobelEdgeDetection.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\EdgeDetection\SobelEdgeDetectionDemo.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\ImageUtil.cs" />
-    <Compile Include="Assets\MeshMask\Scripts\Utils\TriangulationUtil.cs" />
     <Compile Include="Assets\Render Image Effect\BasicFix\BasicFix.cs" />
     <Compile Include="Assets\Render Image Effect\Bloom\Bloom.cs" />
     <Compile Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.cs" />
@@ -135,13 +112,8 @@
     <Compile Include="Assets\Render Image Effect\RenderImageEffect.cs" />
     <Compile Include="Assets\ShaderEffect\BlackHole\BlackHoleEffect.cs" />
     <Compile Include="Assets\ShaderEffect\Dynamic Image\DynamicImage.cs" />
-    <Compile Include="Assets\TestMask\NewMonoBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\MeshMask\Resources\TemplatePolygonData.txt" />
-    <None Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Shaders\DemoLine.shader" />
-    <None Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Shaders\DemoMesh.shader" />
-    <None Include="Assets\MeshMask\Scripts\Triangulation2D\Demo\Shaders\SimplexNoise3D.cginc" />
     <None Include="Assets\Render Image Effect\BasicFix\Mutiply.shader" />
     <None Include="Assets\Render Image Effect\BasicFix\Overlay.shader" />
     <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
@@ -151,7 +123,9 @@
     <None Include="Assets\ShaderEffect\Card\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />
     <None Include="Assets\ShaderEffect\Dynamic Image\DynamicImage.shader" />
-    <None Include="Assets\ShaderEffect\EdgeCheck\Check.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\EdgeCheck.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck2.shader" />
     <None Include="Assets\ShaderEffect\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\ShaderEffect\Reflect\Reflect.shader" />
     <None Include="Assets\ShaderEffect\TransitionColor\TransitionColor.shader" />
@@ -160,8 +134,6 @@
     <None Include="Assets\ShaderEffect\UV\NormalUV\method2\UVMove.shader" />
     <None Include="Assets\ShaderEffect\UV\UVPattern.shader" />
     <None Include="Assets\ShaderEffect\UV\UVWave\UVWave.shader" />
-    <None Include="Assets\TestMask\SobelCheck.shader" />
-    <None Include="Assets\TestMask\SobelCheck2.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

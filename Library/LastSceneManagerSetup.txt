@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Reflect/CubeMap.unity
+- path: Assets/TestMask/TestMask.unity
   isLoaded: 1
   isActive: 1
