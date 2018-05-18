@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShaderEffect/SimpleMask/Shader/EraseBg.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShaderEffect/EdgeCheck/SobelCheck.shader">
     <Files>
       <File FileName="Assets/ShaderEffect/SimpleMask/Shader/EraseBg.shader" Line="20" Column="29" />
+      <File FileName="Assets/ShaderEffect/EdgeCheck/SobelCheck.shader" Line="9" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
