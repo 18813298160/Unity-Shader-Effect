@@ -158,7 +158,7 @@
     <None Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.shader" />
     <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
-    <None Include="Assets\ShaderEffect\Card\CardEffect.shader" />
+    <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />
     <None Include="Assets\ShaderEffect\Dynamic Image\DynamicImage.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\EdgeCheck.shader" />
@@ -166,6 +166,8 @@
     <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck2.shader" />
     <None Include="Assets\ShaderEffect\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\ShaderEffect\Reflect\Reflect.shader" />
+    <None Include="Assets\ShaderEffect\SimpleMask\Shader\EraseBg.shader" />
+    <None Include="Assets\ShaderEffect\SimpleMask\Shader\SimpleMask.shader" />
     <None Include="Assets\ShaderEffect\TransitionColor\TransitionColor.shader" />
     <None Include="Assets\ShaderEffect\Transparent\TransparentTest.shader" />
     <None Include="Assets\ShaderEffect\UV\NormalUV\method1\UvWithSurfaceShader.shader" />
