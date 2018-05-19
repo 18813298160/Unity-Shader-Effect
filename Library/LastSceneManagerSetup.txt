@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Render Image Effect/ScreenBroken/t.unity
+- path: Assets/ShaderEffect/Hologram/Hologram.unity
   isLoaded: 1
   isActive: 1

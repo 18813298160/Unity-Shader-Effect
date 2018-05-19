@@ -166,8 +166,10 @@
     <None Include="Assets\ShaderEffect\EdgeCheck\EdgeCheck.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck2.shader" />
+    <None Include="Assets\ShaderEffect\Hologram\Hologram.shader" />
     <None Include="Assets\ShaderEffect\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\ShaderEffect\Reflect\Reflect.shader" />
+    <None Include="Assets\ShaderEffect\Shelter\Shelter.shader" />
     <None Include="Assets\ShaderEffect\SimpleMask\Shader\EraseBg.shader" />
     <None Include="Assets\ShaderEffect\SimpleMask\Shader\SimpleMask.shader" />
     <None Include="Assets\ShaderEffect\TransitionColor\TransitionColor.shader" />
