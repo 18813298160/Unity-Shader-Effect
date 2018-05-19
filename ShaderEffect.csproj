@@ -114,6 +114,7 @@
     <Compile Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.cs" />
     <Compile Include="Assets\Render Image Effect\ScreenRotating\ScreenRotating.cs" />
     <Compile Include="Assets\ShaderEffect\BlackHole\BlackHoleEffect.cs" />
+    <Compile Include="Assets\ShaderEffect\CardEffect\CardHolder.cs" />
     <Compile Include="Assets\ShaderEffect\Dynamic Image\DynamicImage.cs" />
   </ItemGroup>
   <ItemGroup>

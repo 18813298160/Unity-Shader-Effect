@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShaderEffect/Hologram/Hologram.unity
+- path: Assets/ShaderEffect/CardEffect/CardEffect.unity
   isLoaded: 1
   isActive: 1
