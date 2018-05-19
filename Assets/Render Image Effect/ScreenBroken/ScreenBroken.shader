@@ -70,26 +70,26 @@ Shader "Effect/ScreenBroken" {
             float4 frag(v2f f) : Color{
 
                // tex2D 根据法线贴图的纹理坐标获取颜色值
-                fixed4 normalColor = tex2D(_NormalMap,f.uv.zw);
+                fixed4 normalColor = tex2D(_NormalMap, f.uv.zw);
 
                 // 切线空间下的法线
                 half2 bump = UnpackNormal(normalColor).rg;
 
                 //屏幕中心坐标
-				float2 centerPoint = float2(_ScreenParams.x /2, _ScreenParams.y /2);  
+                float2 centerPoint = float2(_ScreenParams.x /2, _ScreenParams.y /2);  
                 float dis = distance(f.svPos.xy , centerPoint);
 
                 //使用时间产生向外扩散的效果
-                float isInFlow = step(dis / _Time.y, 500);
+                float isInFlow = step(dis / _Time.y, 800);
                 //法线的深度随时间增大，直到到达临界时间time为止
                 fixed hasReachTime = step(_DepthTime, _Time.y);
                  
                 f.uv.xy += bump * 0.5 * isInFlow * ((1 - hasReachTime) * _Time.y + hasReachTime);
-
                 //控制灰度
                 fixed4 col = tex2D(_MainTex, f.uv.xy);
                 fixed lum = Luminance(col);
                 return lerp(col, lum, _LuminosityAmount);
+
             }
 
             ENDCG

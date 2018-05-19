@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 //参考 https://blog.csdn.net/candycat1992/article/details/39482593
 public class NightVision : RenderImageEffect
@@ -22,11 +20,6 @@ public class NightVision : RenderImageEffect
 	public float scale = 0.8f;
 
 	private float randomValue = 0.0f;
-
-	public override void Start()
-	{
-		base.Start();
-	}
 
 	public override void Update()
 	{

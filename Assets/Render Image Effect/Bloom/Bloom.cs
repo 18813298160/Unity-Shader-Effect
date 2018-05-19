@@ -10,11 +10,6 @@ public class Bloom : RenderImageEffect
     public float colorMixBlend = 0.25f;
     public float agonyTint = 0;
 
-	public override void Start()
-	{
-		base.Start();
-	}
-
 	public override void Update()
 	{
 		base.Update();

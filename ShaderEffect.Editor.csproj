@@ -152,6 +152,8 @@
     <Compile Include="Assets\Editor\CubeMapGen.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\From Shadertoy\Common\ShaderToyTemplate.shader" />
+    <None Include="Assets\From Shadertoy\Rotating Sphere\Rotating Sphere.shader" />
     <None Include="Assets\Render Image Effect\BasicFix\Mutiply.shader" />
     <None Include="Assets\Render Image Effect\BasicFix\Overlay.shader" />
     <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
@@ -159,6 +161,7 @@
     <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
     <None Include="Assets\Render Image Effect\ScreenBroken\NormalMap.shader" />
     <None Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.shader" />
+    <None Include="Assets\Render Image Effect\ScreenRotating\ScreenRotating.shader" />
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
     <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />

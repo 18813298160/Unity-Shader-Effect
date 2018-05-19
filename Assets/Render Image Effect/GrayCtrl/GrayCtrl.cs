@@ -9,11 +9,6 @@ public class GrayCtrl : RenderImageEffect {
     /// 用于控制灰度值
     /// </summary>
     public float grayScaleAmount = 0;
-
-    public override void Start ()
-    {
-        base.Start();
-	}
 	
     public override void Update () 
     {
@@ -22,7 +17,7 @@ public class GrayCtrl : RenderImageEffect {
         grayScaleAmount = Mathf.Clamp(grayScaleAmount, 0.0f, 1.0f);
 	}
 
-   public override void SetShaderProperties()
+    public override void SetShaderProperties()
     {
         base.SetShaderProperties();
 		mat.SetFloat("_LuminosityAmount", grayScaleAmount);

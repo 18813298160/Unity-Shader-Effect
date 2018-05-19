@@ -1,17 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BasicFix : RenderImageEffect
 {
     public Texture blendTex;
     [Range(0, 1)]
     public float opacity = 0.5f;
-
-	public override void Start()
-	{
-		base.Start();
-	}
 
 	public override void Update()
 	{
