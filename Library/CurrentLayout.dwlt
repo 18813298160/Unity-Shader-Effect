@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 805
-  m_MinSize: {x: 887, y: 492}
-  m_MaxSize: {x: 16012, y: 14042}
+  m_MinSize: {x: 885, y: 492}
+  m_MaxSize: {x: 16010, y: 14042}
   vertical: 0
   controlID: 21
 --- !u!114 &4
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 805
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -349,19 +349,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/ShaderEffect/2DEffect
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/ShaderEffect/2DEffect
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/hushiyu/Desktop/ShaderEffect
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: f8240000
-    m_LastClickedID: 9464
-    m_ExpandedIDs: 00000000f82400004c2500008a250000be250000d8250000f82500000e26000070260000722600007426000076260000782600007a2600007c260000ce32000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 230}
+    m_SelectedIDs: 14270000
+    m_LastClickedID: 10004
+    m_ExpandedIDs: 000000000825000088250000e82500000426000038260000522600006c2600007a26000092260000fc260000fe26000000270000022700000427000006270000082700000a2700001427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82400004c2500008a250000be250000d8250000f82500000e26000070260000722600007426000076260000782600007a2600007c260000
+    m_ExpandedIDs: 000000000825000088250000e82500000426000038260000522600006c2600007a26000092260000fc260000fe26000000270000022700000427000006270000082700000a270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 100
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -507,26 +507,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0256fbffc271fbff7c74fbff00000000
+    m_ExpandedIDs: feb8feff06caffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Quad
+      m_OriginalName: Quad
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -13964
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - CardEffect
+  - Mosaoic
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -557,14 +557,14 @@ MonoBehaviour:
     width: 268
     height: 512
   m_SceneLighting: 1
-  lastFramingTime: 19746.965043902397
+  lastFramingTime: 1038.9024180173874
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 512, y: 384, z: 0}
+    m_Target: {x: 0.038999975, y: 0.14200002, z: -8.693}
     speed: 2
-    m_Value: {x: 512, y: 384, z: 0}
+    m_Value: {x: 0.038999975, y: 0.14200002, z: -8.693}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -589,11 +589,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -0.99999994}
+    m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 2112
+    m_Target: 2.3334522
     speed: 2
-    m_Value: 2112
+    m_Value: 2.3334522
   m_Ortho:
     m_Target: 1
     speed: 2

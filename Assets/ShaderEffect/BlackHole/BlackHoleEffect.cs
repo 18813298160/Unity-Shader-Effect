@@ -33,31 +33,36 @@ public class BlackHoleEffect : MonoBehaviour
 
     void Awake()
     {
-        mat = GetComponent<MeshRenderer>().material;
-        if (mat == null)
-        { 
-            Debug.LogError("no material");
-            return; 
-        }
+        mat = GetComponent<Renderer>().material;
 
 		TopYID = Shader.PropertyToID("_TopY");
 		BottlmYID = Shader.PropertyToID("_BottomY");
 		ControlID = Shader.PropertyToID("_Control");
 		BlackHolePosID = Shader.PropertyToID("_BlackHolePos");
 
-        radius = GetComponent<SphereCollider>().radius;
-		float topPosY = transform.position.y + radius;
-		float bottomPosY = transform.position.y - radius;
-
-		mat.SetFloat(TopYID, topPosY);
-		mat.SetFloat(BottlmYID, bottomPosY);
-
-        if (blackHole != null)
+        var sphereCol = GetComponent<SphereCollider>();
+        if (sphereCol)
         {
-            blackHolePos = blackHole.transform.position;
-            blackHolePos.w = 1;
-            mat.SetVector(BlackHolePosID, blackHolePos);
+            radius = GetComponent<SphereCollider>().radius;
+            float topPosY = transform.position.y + radius;
+            float bottomPosY = transform.position.y - radius;
+
+            mat.SetFloat(TopYID, topPosY);
+            mat.SetFloat(BottlmYID, bottomPosY);
         }
+
+        if (mat == null)
+        { 
+            Debug.LogError("no material");
+            return; 
+        }
+
+		if (blackHole != null)
+		{
+			blackHolePos = blackHole.transform.position;
+			blackHolePos.w = 1;
+			mat.SetVector(BlackHolePosID, blackHolePos);
+		}
     }
 
 	void Update ()
