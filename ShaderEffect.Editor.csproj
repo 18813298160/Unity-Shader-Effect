@@ -162,9 +162,9 @@
     <None Include="Assets\Render Image Effect\ScreenBroken\NormalMap.shader" />
     <None Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.shader" />
     <None Include="Assets\Render Image Effect\ScreenRotating\ScreenRotating.shader" />
-    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\BlurGauss.shader" />
-    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Sharpen.shader" />
-    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\SimpleBlur.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\BlurGauss.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\Sharpen.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\SimpleBlur.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Dynamic Image\DynamicImage.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Mosaic\Mosaic.shader" />
@@ -177,9 +177,11 @@
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
     <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />
-    <None Include="Assets\ShaderEffect\EdgeCheck\EdgeCheck.shader" />
-    <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck.shader" />
-    <None Include="Assets\ShaderEffect\EdgeCheck\SobelCheck2.shader" />
+    <None Include="Assets\ShaderEffect\Draw\Shader\Clear.shader" />
+    <None Include="Assets\ShaderEffect\Draw\Shader\Draw.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\Shader\EdgeCheck.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\Shader\SobelCheck.shader" />
+    <None Include="Assets\ShaderEffect\EdgeCheck\Shader\SobelCheck2.shader" />
     <None Include="Assets\ShaderEffect\Hologram\Hologram.shader" />
     <None Include="Assets\ShaderEffect\Reflect\Reflect.shader" />
     <None Include="Assets\ShaderEffect\Shelter\Shelter.shader" />

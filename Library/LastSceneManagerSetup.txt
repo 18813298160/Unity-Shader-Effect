@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShaderEffect/2DEffect/Mosaic/Mosaoic.unity
+- path: Assets/Render Image Effect/Draw/ScreenDraw.unity
   isLoaded: 1
   isActive: 1
