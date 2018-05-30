@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Render Image Effect/Draw/ScreenDraw.unity
+- path: Assets/ShaderEffect/Draw/ScreenDraw.unity
   isLoaded: 1
   isActive: 1

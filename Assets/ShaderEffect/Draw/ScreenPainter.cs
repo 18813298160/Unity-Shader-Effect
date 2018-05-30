@@ -29,8 +29,10 @@ public class ScreenPainter : MonoBehaviour
 		paintMat.SetFloat("_Size", brushSize);
 
 		renderTex = RenderTexture.GetTemporary(Screen.width, Screen.height, 24);
-        if(PaintBoard)
-		    PaintBoard.texture = renderTex;
+        if (PaintBoard)
+        {
+            PaintBoard.texture = renderTex; 
+        }
 	}
 
     void Update()

@@ -71,7 +71,6 @@ Shader "Effect/PaintBrush"
                 col.rgb = 1;
                 //*上笔刷的颜色
                 col *= _Color;
-
                 return col;
             }
             ENDCG

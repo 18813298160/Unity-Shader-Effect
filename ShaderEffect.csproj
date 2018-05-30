@@ -106,6 +106,7 @@
   <ItemGroup>
     <Compile Include="Assets\CommonScripts\PolyImage.cs" />
     <Compile Include="Assets\From Shadertoy\Common\ShadertoyHelper.cs" />
+    <Compile Include="Assets\Ocean\Ocean.cs" />
     <Compile Include="Assets\Render Image Effect\Base\RenderImageEffect.cs" />
     <Compile Include="Assets\Render Image Effect\BasicFix\BasicFix.cs" />
     <Compile Include="Assets\Render Image Effect\Bloom\Bloom.cs" />
