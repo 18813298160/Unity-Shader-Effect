@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShaderEffect/Draw/ScreenDraw.unity
+- path: Assets/From Shadertoy/Rotating Sphere/Rotating Sphere.unity
   isLoaded: 1
   isActive: 1

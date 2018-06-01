@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 //简单UV动画（使用Surface Shader）
-Shader "Effect/NormalUv" {
+Shader "Effect/2D/NormalUv" {
     Properties {
         _MainTex ("Image Sequence", 2D) = "white" {}
         _ScrollX ("x speed", Float) = 2

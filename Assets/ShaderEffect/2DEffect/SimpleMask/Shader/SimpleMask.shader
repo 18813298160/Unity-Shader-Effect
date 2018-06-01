@@ -1,6 +1,6 @@
 ﻿//通过shader简单的遮罩
 
-Shader "Effect/Mask" {
+Shader "Effect/2D/Mask" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}//目标图片，即需要被遮罩的图片
         _MaskLayer("Culling Mask",2D) = "white"{}//混合的图片，设置为白色的图片，任何颜色与白色混合，其颜色不变

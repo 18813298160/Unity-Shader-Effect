@@ -1,6 +1,6 @@
 ﻿//UV动画的模版shader
 
-Shader "Effect/UVPattern" {
+Shader "Effect/2D/UVPattern" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
 

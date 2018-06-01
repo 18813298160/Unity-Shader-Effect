@@ -1,4 +1,4 @@
-﻿Shader "Effect/EraseBg" {
+﻿Shader "Effect/2D/EraseBg" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}//目标图片
         _Cutoff("Alpha cutoff",Range(0,0.9)) = 0

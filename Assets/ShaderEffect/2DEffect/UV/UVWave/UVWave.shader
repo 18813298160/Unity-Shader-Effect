@@ -1,4 +1,5 @@
-﻿Shader "Effect/UVWave" {
+﻿//简单波动效果，可以参照ScreenWave.shader达到更好的效果
+Shader "Effect/2D/UVWave" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
         _Speed("speed", Range(0,20)) = 11.4
@@ -42,12 +43,12 @@
             //让图片的每一个像素沿着某个方向周期性的往复运动， 
             //可以通过平面简谐波进行模拟，其波函数我们简写为y=Acos(at+bx)，其中t为时间，x为与原点（已知振动方程的点）的距离。t可以用_Time[1]表示，
             //距离我们可以取uv.x(即u相同让它有相同的运动)，
-            //更优的方法是使用sqrt(uv.x*uv.x + uv.y*uv.y)
+            //更优的方法是使用length(其实就是sqrt(uv.x*uv.x + uv.y*uv.y))
             float4 frag(v2f i) : COLOR
             {      
                 float4 o;
                 fixed2 uv = i.uv.xy;
-                fixed curR = sqrt(uv.x*uv.x + uv.y*uv.y);
+                fixed curR = length(uv);
                 fixed finalR = cos(_Time[1] * _Speed + curR * _Scale)/_Identity;
                 o.rgb = tex2D(_MainTex, float2(finalR, 0) + uv).rgb;
                 o.a = 1;

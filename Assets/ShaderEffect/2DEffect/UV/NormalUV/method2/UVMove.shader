@@ -1,6 +1,6 @@
 ﻿﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Effect/UVMove" {
+Shader "Effect/2D/UVMove" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
         //加入噪声测试

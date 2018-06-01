@@ -48,7 +48,8 @@ Shader "Effect/ScreenRotating"
 			fixed4 frag (v2f i) : SV_Target
 			{
                 //点到纹理中心的向量，取长度就是到中心的距离
-                fixed2 uv = fixed2(i.uv.x - 0.5, i.uv.y - 0.5);
+                //这种是简略写法，相当于fixed2 uv = fixed2(i.uv.x - 0.5, i.uv.y - 0.5);
+                fixed2 uv = i.uv - 0.5;
                 fixed len = length(uv);
                 //根据距离算出旋转角度, UNITY_PI / 180 = 0.1745
                 float angle = _Twist * 0.1745 / (len + 0.1);
@@ -58,8 +59,10 @@ Shader "Effect/ScreenRotating"
 
                  //构建旋转矩阵
                 float2x2 _matrix = float2x2(cosval, -sinval, sinval, cosval);
+                uv = mul(_matrix, uv);
+
                 //旋转完成后，平移至原位置
-                uv = mul(_matrix, uv) + 0.5;
+                uv += 0.5;
 
                 fixed4 col = tex2D(_MainTex, uv);
 

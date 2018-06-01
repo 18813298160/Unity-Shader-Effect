@@ -52,72 +52,76 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
     </Reference>
     <Reference Include="System.XML">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity5.6.2/Unity5.6.2.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CommonScripts\PolyImage.cs" />
+    <Compile Include="Assets\Common\CommonScripts\PolyImage.cs" />
     <Compile Include="Assets\From Shadertoy\Common\ShadertoyHelper.cs" />
     <Compile Include="Assets\Ocean\Ocean.cs" />
     <Compile Include="Assets\Render Image Effect\Base\RenderImageEffect.cs" />
     <Compile Include="Assets\Render Image Effect\BasicFix\BasicFix.cs" />
     <Compile Include="Assets\Render Image Effect\Bloom\Bloom.cs" />
     <Compile Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.cs" />
+    <Compile Include="Assets\Render Image Effect\MotionBlur\Scripts\CamCtrl.cs" />
+    <Compile Include="Assets\Render Image Effect\MotionBlur\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\Render Image Effect\NightVision\NightVision.cs" />
     <Compile Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.cs" />
     <Compile Include="Assets\Render Image Effect\ScreenRotating\ScreenRotating.cs" />
+    <Compile Include="Assets\Render Image Effect\ScreenWave\ScreenWave.cs" />
+    <Compile Include="Assets\ShaderEffect\2DEffect\ClickEffect\ClickEffectObj.cs" />
+    <Compile Include="Assets\ShaderEffect\2DEffect\Draw\ScreenPainter.cs" />
     <Compile Include="Assets\ShaderEffect\2DEffect\Dynamic Image\DynamicImage.cs" />
     <Compile Include="Assets\ShaderEffect\BlackHole\BlackHoleEffect.cs" />
     <Compile Include="Assets\ShaderEffect\CardEffect\CardHolder.cs" />
-    <Compile Include="Assets\ShaderEffect\Draw\ScreenPainter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\From Shadertoy\Common\ShaderToyTemplate.shader" />
@@ -126,13 +130,18 @@
     <None Include="Assets\Render Image Effect\BasicFix\Overlay.shader" />
     <None Include="Assets\Render Image Effect\Bloom\Bloom.shader" />
     <None Include="Assets\Render Image Effect\GrayCtrl\GrayCtrl.shader" />
+    <None Include="Assets\Render Image Effect\MotionBlur\MotionBlur.shader" />
     <None Include="Assets\Render Image Effect\NightVision\NightVision.shader" />
     <None Include="Assets\Render Image Effect\ScreenBroken\NormalMap.shader" />
     <None Include="Assets\Render Image Effect\ScreenBroken\ScreenBroken.shader" />
     <None Include="Assets\Render Image Effect\ScreenRotating\ScreenRotating.shader" />
+    <None Include="Assets\Render Image Effect\ScreenWave\ScreenWave.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\BlurGauss.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\Sharpen.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\SimpleBlur.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\ClickEffect\ClickEffect.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Draw\Shader\Clear.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Draw\Shader\Draw.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Dynamic Image\DynamicImage.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Image Sequence\ImageSequence.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Mosaic\Mosaic.shader" />
@@ -145,8 +154,6 @@
     <None Include="Assets\ShaderEffect\BlackHole\BlackHole.shader" />
     <None Include="Assets\ShaderEffect\CardEffect\CardEffect.shader" />
     <None Include="Assets\ShaderEffect\Crush\Crush.shader" />
-    <None Include="Assets\ShaderEffect\Draw\Shader\Clear.shader" />
-    <None Include="Assets\ShaderEffect\Draw\Shader\Draw.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\Shader\EdgeCheck.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\Shader\SobelCheck.shader" />
     <None Include="Assets\ShaderEffect\EdgeCheck\Shader\SobelCheck2.shader" />

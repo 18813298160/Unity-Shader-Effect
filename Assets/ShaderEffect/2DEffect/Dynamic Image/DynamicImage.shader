@@ -1,4 +1,4 @@
-﻿Shader "Effect/UI/DynamicImage"
+﻿Shader "Effect/2D/DynamicImage"
 {
     Properties
     {

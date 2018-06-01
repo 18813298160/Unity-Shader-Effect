@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{8073E6A9-2103-13A0-6A8E-7C0597662890}|">
   <MonoDevelop.Ide.ItemProperties.ShaderEffect PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShaderEffect/Draw/Shader/Draw.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Render Image Effect/ScreenWave/ScreenWave.shader">
     <Files>
-      <File FileName="Assets/ShaderEffect/Draw/ScreenPainter.cs" Line="19" Column="12" />
-      <File FileName="Assets/Ocean/Ocean.cs" Line="152" Column="21" />
-      <File FileName="Assets/ShaderEffect/Draw/Shader/Clear.shader" Line="49" Column="28" />
-      <File FileName="Assets/ShaderEffect/Draw/Shader/Draw.shader" Line="17" Column="14" />
+      <File FileName="Assets/Render Image Effect/ScreenWave/ScreenWave.shader" Line="17" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

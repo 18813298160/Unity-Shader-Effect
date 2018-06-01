@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Effect/ImageSequence" {
+Shader "Effect/2D/ImageSequence" {
     Properties {
         _Color ("Color Tint", Color) = (1, 1, 1, 1)
         _MainTex ("Image Sequence", 2D) = "white" {}
