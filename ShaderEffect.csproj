@@ -140,10 +140,12 @@
     <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\Sharpen.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Blur And Sharpen\Shader\SimpleBlur.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\ClickEffect\ClickEffect.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Cooling\Cooling.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Draw\Shader\Clear.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Draw\Shader\Draw.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Dynamic Image\DynamicImage.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Image Sequence\ImageSequence.shader" />
+    <None Include="Assets\ShaderEffect\2DEffect\Loading\Loading.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\Mosaic\Mosaic.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\SimpleMask\Shader\EraseBg.shader" />
     <None Include="Assets\ShaderEffect\2DEffect\SimpleMask\Shader\SimpleMask.shader" />
