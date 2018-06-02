@@ -1,9 +1,7 @@
 # Unity-Shader-Effect
-Unity中的Shader效果记录(持续添加中。。。）
+## Unity中的Shader效果记录(持续添加中。。。）
 
-ShaderEffect（普通shader效果）：
-
-
+### ShaderEffect（普通shader效果）：
 
 Crush : 挤压效果；
 
@@ -25,10 +23,9 @@ TransitionColor : 颜色动态变化；
 
 Transparent : 透明效果；
 
+***
 
-
-
-Render Image Effect （（通过Render Texture实现画面的特效（屏幕后处理）））: 
+### Render Image Effect （（通过Render Texture实现画面的特效（屏幕后处理）））: 
 
 BasicFix : 纹理混合叠加效果；
 
