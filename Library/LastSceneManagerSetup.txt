@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/From Shadertoy/Rotating Sphere/Rotating Sphere.unity
+- path: Assets/ShaderEffect/2DEffect/Cooling/Cooling.unity
   isLoaded: 1
   isActive: 1
